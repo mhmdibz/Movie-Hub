@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  #twitbtn {
+    width: 330px;
+    text-decoration: aliceblue;
+    background-color: #42aeec;
+    color: #fff;
+  }
+  
+  #fbbtn {
+    width: 400px;
+    background-color: #1877f2;
+    color: #fff;
+  }
+  
+  #twitbtn:hover {
+    background-color: #1b85c7;
+  }
+  
+  #fbbtn:hover {
+    background-color: #405d9d;
+  }
+  
+  #baat {
+    width: 400px;
+  }
+  body {
+    background-size: cover;
+      /* background-image: url(/images/wallpaperflare.com_wallpaper\ \(23\).jpg);   */
+      background-color: rgb(0, 0, 0);
+    background-size: cover;
+  }
+  .card{
+    box-shadow: 5px 5px 5px 5px #6f00ff77;
+  }
+  /* H-shadow\\ v-shadow\\blur\\color\\inset */

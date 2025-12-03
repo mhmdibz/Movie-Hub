@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+#logoo {
+  position: absolute;
+  top: 0.2%;
+  left: 1.2%;
+  width: 50px;
+  height: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0279da;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #000000b9;
+}
+.card {
+  margin: 20px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+}
+.card-image {
+  width: 100%;
+  display: block;
+}
+
+.overlay-text {
+  width: 250px;
+}
+.overlay-text,
+.avengers-btn,
+.avengers-btn2 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.212);
+  color: white;
+  font-size: x-large;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.avengers-btn {
+  top: 95%;
+  left: 50%;
+  width: 90%;
+}
+.avengers-btn2 {
+  top: 105%;
+  left: 50%;
+  width: 90%;
+}
+.card {
+  transition: 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.07);
+}
+
+/* footer */
+.footer {
+  background-color: #033c61;
+  position: absolute;
+  top: 385%;
+  width: 100%;
+  height: auto;
+}
+
+.fal {
+  text-decoration: none;
+  color: #f0f8ffcc;
+
+  display: inline-block;
+}
+
+#help {
+  position: absolute;
+  top: 6%;
+  left: 18%;
+  text-decoration: none;
+  color: #f0f8ffcc;
+  font-size: 19px;
+}
+#help1 {
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  color: #f0f8ffcc;
+  text-decoration: none;
+  text-decoration: none;
+}
+#help2 {
+  position: absolute;
+  top: 30%;
+  left: 18%;
+  color: #f0f8ffcc;
+  text-decoration: none;
+}
+#help3 {
+  position: absolute;
+  top: 40%;
+  left: 18%;
+  color: #f0f8ffcc;
+  text-decoration: none;
+}
+#help4 {
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  color: #f0f8ffcc;
+  text-decoration: none;
+}
+#insta {
+  position: absolute;
+  top: 70%;
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 10px;
+}
+#face {
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 11px;
+}
+#twit {
+  position: absolute;
+  top: 70%;
+  left: 4%;
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 11px;
+}
+#thre {
+  position: absolute;
+  top: 70%;
+  left: 6%;
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 11px;
+}
+#you {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 11px;
+  width: 15px;
+}
+#copy {
+  position: absolute;
+  top: 88%;
+  left: 43%;
+  color: aliceblue;
+  font-size: px;
+  margin-left: 11px;
+}
+#fotimg {
+  width: 25px;
+}

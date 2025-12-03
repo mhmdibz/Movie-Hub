@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action</title>
+    <link rel="stylesheet" href="/css/action.css">
+    <link rel="shortcut icon" href="../images/cinema.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          animation: gradientAnimation 10s infinite alternate;
+        }
+    
+        @keyframes gradientAnimation {
+          0% {
+              background-color: #000000;
+        }
+        
+        15% {
+            background-color: #000000;
+        }
+        50% {
+            background-color: #0052af;
+        }
+        75% {
+            background-color: #5200af;
+        }
+        
+        100% {
+              background-color: #00aeff;
+          }
+        }
+      </style>
+</head>
+
+<body style="background-color: #000000">
+    <ul style="padding-left: 0;margin-bottom: 0; display: flex; justify-content:center; ">
+        <li>
+            <img id="logoo" src="../images/film.png" alt="">
+        </li>
+        <li>
+            <a href="../html/index.html">Home</a>
+        </li>
+        <li>
+            <a href="#news">News
+            </a>
+        </li>
+        <li><a href="#prime">Prime
+            </a>
+        </li>
+        <li>
+            <a class="active" href="#Content">Content
+            </a>
+        </li>
+        <li style="float:right">
+            <a href="#about">About
+            </a>
+        </li>
+        <li>
+            <a href="#contact">Exit
+            </a>
+        </li>
+        <li style="
+         position: absolute;
+         top: -1.01%;
+         right: 0;
+         ">
+            <a style="background-color: rgba(240, 248, 255, 0);
+            margin-right: 75px;" href="./signup.html">
+                <span class="btn btn-danger">
+                    Sign up
+                </span>
+                <!-- <span class="btn btn-dark">
+                    Log in
+                </span> -->
+            </a>
+        </li>
+        <li style="
+         position: absolute;
+         top: -1.01%;
+         right: 0;
+         ">
+            <a style="background-color: rgba(240, 248, 255, 0);" href="../html/Log in.html">
+                <!-- <span class="btn btn-danger">
+                    Sign up
+                </span> -->
+                <span class="btn btn-dark">
+                    Login
+                </span>
+            </a>
+        </li>
+    </ul>
+    <div class="container">
+        <div style="display: flex;justify-content: center; margin-top: 40px;">
+            <a href="../html/index.html" style="width: 15%;margin: 10px;" class="btn btn-danger">All</a>
+            <a href="" style="width: 15%;margin: 10px;" class="btn btn-danger active ">action</a>
+            <a href="../html/animation.html" style="width: 15%;margin: 10px;" class="btn btn-danger ">animation</a>
+            <a href="../html/horror.html" style="width: 15%;margin: 10px;" class="btn btn-danger">horror</a>
+            <a href="" style="width: 15%;margin: 10px;" class="btn btn-danger">Arabic</a>
+            <a href="" style="width: 15%;margin: 10px;" class="btn btn-danger">Korean</a>
+            <a href="" style="width: 15%;margin: 10px;" class="btn btn-danger">indian</a>
+            <a href="" style="width: 15%;margin: 10px;" class="btn btn-danger">The latest</a>
+            <a href="" style="width: 15%;margin: 10px;" class="btn btn-danger">Most viewed</a>
+
+        </div>
+
+        <div style="display: flex;justify-content: center; margin-top: 60px;">
+            <div style="width: 70%;" class="input-group ">
+
+                <span style="width: 100%; background-color: #0077ff;" class="btn btn-primary">Action Movies</span>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex;justify-content: center; margin-top: 30px; margin-bottom: 20px;">
+        <div style="width: 70%;" class="input-group ">
+            <span class="input-group-text btn btn-outline-primary"><i class="fa-solid fa-magnifying-glass"></i>
+                search</span>
+            <input style="background-color: rgba(141, 164, 187, 0.651);" type="text" class="form-control"
+                placeholder="Search" name="ser" id="ser">
+        </div>
+    </div>
+
+    <div style="height: 1000px;" class="container-fluid ax">
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/The Refuge.jpg" alt="" class="card-image">
+            <div class="overlay-text">The Refuge</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Blackwater Lane.jpg" alt="" class="card-image">
+            <div class="overlay-text">Blackwater Lane</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/lanier.jpg" alt="" class="card-image">
+            <div class="overlay-text">Lanier</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/violent nature.jpg" alt="" class="card-image">
+            <div class="overlay-text">Violent Nature</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Child's play.jpg" alt="" class="card-image">
+            <div class="overlay-text">Child'sPlay</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px;  width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/cinderella's curse.jpg" alt=""
+                class="card-image">
+            <div class="overlay-text">Cinderella's Curse</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Civil war.jpg" alt="" class="card-image">
+            <div class="overlay-text">Civil War</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block;"
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Curse of clown motel.jpg" alt=""
+                class="card-image">
+            <div class="overlay-text">Curse of Clown Motel</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Cycle of Revenge.jpg" alt=""
+                class="card-image">
+            <div class="overlay-text">Cycle Of Revenge</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Dawn of The planet.jpg" alt=""
+                class="card-image">
+            <div class="overlay-text">Dawn Of The Planet</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/End of the rope.jpg" alt="" class="card-image">
+            <div class="overlay-text">End Of The Rope</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/gurdians.jpg" alt="" class="card-image">
+            <div class="overlay-text">Gurdians</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+
+
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Kingdom of planet.jpg" alt=""
+                class="card-image">
+            <div class="overlay-text">Kingdom Of Planet</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Mating Season.jpg" alt="" class="card-image">
+            <div class="overlay-text">Mating Season</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Rise of the planet.jpg" alt=""
+                class="card-image">
+            <div class="overlay-text">Rise Of The Planet</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+
+
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/An Angry Boy.jpg" alt="" class="card-image">
+            <div class="overlay-text">An Angry Boy</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/cards/intersteller.jpg" alt="" class="card-image">
+            <div class="overlay-text">intersteller</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch
+            </div>
+
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/cards/inception.jpg" alt="" class="card-image">
+            <div class="overlay-text">inception</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px;  width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/cards/thor.jpg" alt="" class="card-image">
+            <div class="overlay-text">thor</div>
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/The Mechanic.jpg" alt="" class="card-image">
+            <div class="overlay-text">The Mechanic</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/cards/guardians.jpg" alt="" class="card-image">
+            <div class="overlay-text">Guardians of Galaxy</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/cards/kingdom of planet.jpg" alt=""
+                class="card-image">
+            <div class="overlay-text">Gingdom of planet</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/action/Godzilla.jpg" alt="" class="card-image">
+            <div class="overlay-text">Godzilla:New Empire</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/cards/top gun maverick.jpg" alt="" class="card-image">
+            <div class="overlay-text">top Gun maverick</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn btn-danger">Watch</div>
+        </div>
+        <div style="margin-bottom: 32px; width: 17%;height: 40%; background-color: rgb(162, 168, 168); display: inline-block; "
+            class="card">
+            <img style="height: 110%;width: 100%;" src="../images/cards/world war.jpg" alt="" class="card-image">
+            <div class="overlay-text">World War z</div>
+
+            <div class="avengers-btn btn btn-primary">Download</div>
+            <div class="avengers-btn2 btn       btn-danger">Watch</div>
+        </div>
+
+        <div class="d-flex justify-content-center mt-4">
+            <span style="width: 60%;" class="btn btn-danger">more <br>
+                <i class="fa-solid fa-caret-down"></i> </span>
+
+        </div>
+
+        <div style="display: flex; justify-content: center;margin-top: 30px;">
+            <ul class="pagination pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <footer class="footer">
+
+        <div style="margin-left: 40px; font: size 19px; display:inline-block ;">
+            <div style="margin-top: 15px;">
+                <a style="font-size: 20px;font-weight:  bolder;" class="fal" href="">About </a> <br>
+                <a href="" class="fal">Company</a><br>
+                <a href="" class=" fal">Our history</a> <br>
+                <a href="" class=" fal">Conditions</a><br>
+                <a href="" class=" fal">Jobs</a><br>
+                <a href="" class=" fal">Contact us</a><br>
+            </div>
+        </div>
+
+        <div id=" help" style="display: inline-block;">
+            <a style="font-size: 20px;font-weight: bolder;" id="help" href="">Help</a>
+            <a href="" id="help1">Tutorials</a> <br>
+            <a href="" id="help2">FAQ</a> <br>
+            <a href="" id="help3">Returns</a> <br>
+            <a href="" id="help4">Qffice hours</a> <br>
+        </div>
+        <br>
+        <hr style="color: rgb(255, 255, 255);"><br>
+
+        <div style="margin-bottom: 50px;">
+            <a href="" id="insta"><span><img id="fotimg" src="../images/facebook.png" alt=""></span></a>
+
+            <a href="" id="face"><span><img id="fotimg" src="../images/instagram.png" alt=""></i></span></a>
+
+            <a href="" id="twit"><span><img id="fotimg" src="../images/twitter.png" alt="">
+                    </i></span></a>
+
+            <a href="" id="thre"><span><img style="border-radius: 10px;" id="fotimg" src="../images/threads.png"
+                        alt=""></i></span></a>
+
+            <a href="" id="you"><span><img id="fotimg" src="../images/youtube.png" alt=""></i></span></a>
+
+            <p href="" id="copy"><i class="fa-regular fa-copyright"></i> Copright:Yourmovie.com</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
